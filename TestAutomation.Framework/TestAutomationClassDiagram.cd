@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Comment CommentText="DomainLayer-Contracts&#xD;&#xA;">
+    <Position X="3.797" Y="0.5" Height="0.343" Width="1.724" />
+  </Comment>
+  <Comment CommentText="Builders&#xD;&#xA;">
+    <Position X="14.961" Y="3.756" Height="0.291" Width="1.592" />
+  </Comment>
+  <Comment CommentText="Domainayer-Events&#xD;&#xA;">
+    <Position X="13.147" Y="0.5" Height="0.295" Width="1.676" />
+  </Comment>
+  <Comment CommentText="DomainLayer-Factories&#xD;&#xA;">
+    <Position X="19.119" Y="0.511" Height="0.291" Width="1.7" />
+  </Comment>
+  <Comment CommentText="DomainLayer-Managers&#xD;&#xA;">
+    <Position X="29.43" Y="0.565" Height="0.291" Width="1.744" />
+  </Comment>
+  <Comment CommentText="DomainLayers-Models&#xD;&#xA;">
+    <Position X="9.982" Y="3.5" Height="0.318" Width="1.7" />
+  </Comment>
+  <Comment CommentText="DomainLayer-POMBase">
+    <Position X="18.974" Y="2.783" Height="0.291" Width="1.722" />
+  </Comment>
+  <Comment CommentText="DomainLayer-Services&#xD;&#xA;">
+    <Position X="29.573" Y="3.194" Height="0.291" Width="1.744" />
+  </Comment>
+  <Comment CommentText="DomainLayer-Utils&#xD;&#xA;">
+    <Position X="30.025" Y="5.336" Height="0.291" Width="1.744" />
+  </Comment>
+  <Comment CommentText="InfrastructureLayer-Adapters-Conditions&#xD;&#xA;">
+    <Position X="10.32" Y="9.199" Height="0.318" Width="2.741" />
+  </Comment>
+  <Comment CommentText="InfrastructureLayer-Adapters-Elements&#xD;&#xA;">
+    <Position X="7.857" Y="13.366" Height="0.318" Width="6.817" />
+  </Comment>
+  <Comment CommentText="InfrastructureLayer-Adapters-Drivers&#xD;&#xA;">
+    <Position X="8.384" Y="16.806" Height="0.307" Width="3.483" />
+  </Comment>
+  <Comment CommentText="InfrastructureLayer-Services&#xD;&#xA;">
+    <Position X="25.046" Y="13.569" Height="0.318" Width="2.741" />
+  </Comment>
+  <Comment CommentText="InfrastructureLayer-System&#xD;&#xA;">
+    <Position X="24.377" Y="16.333" Height="0.318" Width="2.741" />
+  </Comment>
+  <Comment CommentText="InfrastructureLayer-Adapters-Drivers-Settings&#xD;&#xA;">
+    <Position X="21.53" Y="9.001" Height="0.318" Width="3.782" />
+  </Comment>
+  <Comment CommentText="InfrastructureLayer-Adapters-Keyboard&#xD;&#xA;">
+    <Position X="24.443" Y="19.102" Height="0.318" Width="2.741" />
+  </Comment>
+  <Comment CommentText="DomainLayer-Repository&#xD;&#xA;">
+    <Position X="19.358" Y="5.088" Height="0.291" Width="1.744" />
+  </Comment>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Builders.PageBuilder&lt;T&gt;" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAAQAAQAAAAAAAAAAAAAAAAAAAAICAARAAA=</HashCode>
+      <FileName>DomainLayer\Builders\PageBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Events.Args.StaleElementArgs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>DomainLayer\Events\Args\StaleElementArgs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.14" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Events.Handlers.EventOnStaleElement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Events\Handlers\EventOnStaleElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.296" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Factories.DriverFactory" Collapsed="true">
+    <Position X="17.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Factories\DriverFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Factories.ElementFactory" Collapsed="true">
+    <Position X="19.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAASAAAAAAAAAAAAAAAgIAAA=</HashCode>
+      <FileName>DomainLayer\Factories\ElementFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Factories.KeyboardFactory" Collapsed="true">
+    <Position X="21" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Factories\KeyboardFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Managers.PageManager&lt;T&gt;" Collapsed="true">
+    <Position X="28.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAgAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Managers\PageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Managers.ProcessManager" Collapsed="true">
+    <Position X="30.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Managers\ProcessManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Models.Attributes.FindsBy" Collapsed="true">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAEAAAAAAAAAAAAAIAQAACAEAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Models\Attributes\FindsBy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Models.ValueObjects.Locator" Collapsed="true">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Models\ValueObjects\Locator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Models.ValueObjects.Process" Collapsed="true">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Models\ValueObjects\Process.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Models.ValueObjects.Session" Collapsed="true">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Models\ValueObjects\Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.POMBase.Model" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEACCAgAAAA=</HashCode>
+      <FileName>DomainLayer\POMBase\Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.POMBase.Test" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAgAAAAAAAAAAAAAAAACAAACAAAAAAA=</HashCode>
+      <FileName>DomainLayer\POMBase\Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Repositories.DriverRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAEAABAiAAABAQAAAAAAAAEAgAAAABAABA=</HashCode>
+      <FileName>DomainLayer\Repositories\DriverRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.167" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Repositories.PageRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAAAAAEAABACAAABAQAAAAAAAAEAgAAAABAABA=</HashCode>
+      <FileName>DomainLayer\Repositories\PageRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.145" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Services.DriverService" Collapsed="true">
+    <Position X="29.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAgAAAA=</HashCode>
+      <FileName>DomainLayer\Services\DriverService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Services.EventService" Collapsed="true">
+    <Position X="32" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Services\EventService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Services.RepositoryService" Collapsed="true">
+    <Position X="27.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Services\RepositoryService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.DomainLayer.Utils.Helpers.EnumConverter" Collapsed="true">
+    <Position X="32.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQBAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>DomainLayer\Utils\Helpers\EnumConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Conditions.Condition" Collapsed="true">
+    <Position X="11" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAQAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Conditions\Condition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Conditions.ConditionOfElementIsVisible" Collapsed="true">
+    <Position X="4.5" Y="11.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Conditions\ConditionOfElementIsVisible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Conditions.ConditionOfElementToBeClickable" Collapsed="true">
+    <Position X="7.5" Y="11.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Conditions\ConditionOfElementToBeClickable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Conditions.ConditionOfInvisibilityOfElementLocated" Collapsed="true">
+    <Position X="10.25" Y="11.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Conditions\ConditionOfInvisibilityOfElementLocated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Conditions.ConditionOfPageLoaded" Collapsed="true">
+    <Position X="13.75" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Conditions\ConditionOfPageLoaded.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Conditions.ConditionOfTextToBePresentInElement" Collapsed="true">
+    <Position X="16.25" Y="11.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Conditions\ConditionOfTextToBePresent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Agents.DesktopAgent" Collapsed="true">
+    <Position X="12.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAABgAEAAAAIAAAAAAAAAAAAAAgAAQA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Agents\DesktopAgent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.187" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Agents.WebChrome" Collapsed="true">
+    <Position X="2.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAgAAAAAAIAAAAAAAAAAAAAAgAAQA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Agents\WebChrome.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Agents.WebChromeHeadless" Collapsed="true">
+    <Position X="4.75" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAgAAAAAAIAAAAAAAAAAAAAAgAAQA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Agents\WebChromeHeadless.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Agents.WebFirefox" Collapsed="true">
+    <Position X="7.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAgAAAAAAIAAAAAAAAAAAAAAgAAQA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Agents\WebFirefox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Agents.WebInternetExplorer" Collapsed="true">
+    <Position X="9.75" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAgAAAAAAIAAAAAAAAAAAAAAgAAQA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Agents\WebInternetExplorer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.DesktopDriver" Collapsed="true">
+    <Position X="12.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAEQYAJAAEILACgAAJyEESAAYAIQIhIUWCAMogA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\DesktopDriver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.MobileDriver" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAEQYCJAAEILACgAAJSAESABYAIQIhIUWGAcogA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\MobileDriver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.162" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.WebDriver" Collapsed="true">
+    <Position X="6" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAEQYAJAEFILACgAAJyAESAAYAIQIhIUWCAMogA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\WebDriver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Settings.DesktopDriverSettings" Collapsed="true">
+    <Position X="21.5" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Settings\DesktopDriverSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Settings.LocalDesktopDriverSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="10" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAE=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Settings\LocalDesktopDriverSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Settings.LocalWebDriverSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="10" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACAAAAAAAAIAAAAAACAAAIAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Settings\LocalWebDriverSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Settings.RemoteDesktopDriverSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="11.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAE=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Settings\RemoteDesktopDriverSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Settings.RemoteWebDriverSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="11.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACAAAAAAAAIAAAAAACAAAIAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Settings\RemoteWebDriverSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Settings.TestiniumWebDriverSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="11.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACAAAAAAAAIAAAAAACAAAIAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Settings\TestiniumWebDriverSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Settings.WebDriverSettingsManager" Collapsed="true">
+    <Position X="21.5" Y="12.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Settings\WebDriverSettingsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.DesktopElement" Collapsed="true">
+    <Position X="15.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACECAAEACIEIMQgAAAAAAAAAIAAAAIAQBAIgA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\DesktopElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.233" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.DesktopElementList" Collapsed="true">
+    <Position X="6.5" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIBAACAAAAAQAAAAAgAAAAAAAAAAQAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\DesktopElementList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.Element" Collapsed="true">
+    <Position X="16.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAAAIAAQAAIAAAACAAAAQAAAAAgAAAAAACAEAQAQA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\Element.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.ElementList" Collapsed="true">
+    <Position X="6" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\ElementList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.MobileElement" Collapsed="true">
+    <Position X="19.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAACECAgEASIEIMQgAQAAAAAAAIAAABKAQBAIgA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\MobileElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.244" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.MobileElementList" Collapsed="true">
+    <Position X="2" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIBAACAAAAAQAAAAAgAAAAAAAAAAQAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\MobileElementList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.MobileWebElement" Collapsed="true">
+    <Position X="12.75" Y="15.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACECAAEACIEIMQgAAAAAAAAAIAAAAIAQBAIgA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\MobileWebElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.366" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.MobileWebElementList" Collapsed="true">
+    <Position X="4.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIBAACAAAAAQAAAAAgAAAAAAAAAAQAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\MobileWebElementList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.WebElement" Collapsed="true">
+    <Position X="17.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACECAAEACIEIMQgAAAAAAAAAJAAAAIAQBAIgA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\WebElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.322" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Elements.WebElementList" Collapsed="true">
+    <Position X="9" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQAiCAAAAQgAAAAAAAAAAAACAAQASA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Elements\WebElementList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Keyboard.Keyboard" Collapsed="true">
+    <Position X="24.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAEAIAgAAgIAAAAAAAEAgQEAAAAAIAAAABAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Keyboard\Keyboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Services.ElementService" Collapsed="true">
+    <Position X="24.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAFAAAAAACAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Services\ElementService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Services.LocatorService" Collapsed="true">
+    <Position X="26.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Services\LocatorService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Services.WaitService" Collapsed="true">
+    <Position X="29.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Services\WaitService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intertech.TestAutomation.Framework.InfrastructureLayer.System.Config" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAQEAEAAAAAAAAABACAAUAICAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\System\Config.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IAgent" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgAAQA=</HashCode>
+      <FileName>DomainLayer\Contracts\IAgent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IConfig" Collapsed="true">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IConfig.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IDesktopDriver" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAEAYAJAAEIJACgAAJSAESAAYAIQIhIUWCAEogA=</HashCode>
+      <FileName>DomainLayer\Contracts\IDesktopDriver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IDesktopElement" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IDesktopElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IDesktopElementList" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IDesktopElementList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IDriver" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IDriver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IDriverElement" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IDriverElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IDriverSubElement" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IDriverSubElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IElement" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAAEACIEIMQgAAAAAAAAAIAAAAIAABAIgA=</HashCode>
+      <FileName>DomainLayer\Contracts\IElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IElementList" Collapsed="true">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIAAACAAAAAQAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IElementList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IEventRegisterable" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IEventRegisterable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IMobileDriver" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAEAYAJAAEIJACgAAJSAESAAYAIQIhIUWCAEogA=</HashCode>
+      <FileName>DomainLayer\Contracts\IMobileDriver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IMobileElement" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAEAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IMobileElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IMobileElementList" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IMobileElementList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IMobileWebElement" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IMobileWebElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IMobileWebElementList" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IMobileWebElementList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IRepository" Collapsed="true">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAEAABACAAABAQAAAAAAAAAAgAAAABAABA=</HashCode>
+      <FileName>DomainLayer\Contracts\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IWebDriver" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAEAYAJAAEIJACgAAJSAESAAYAIQIhIUWCAEogA=</HashCode>
+      <FileName>DomainLayer\Contracts\IWebDriver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IWebElement" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IWebElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Contracts.IWebElementList" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Contracts\IWebElementList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Events.Interfaces.IArgs" Collapsed="true">
+    <Position X="14.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>DomainLayer\Events\Interfaces\IArgs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.DomainLayer.Events.Interfaces.IEvent" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Public" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Events\Interfaces\IEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Interfaces.IDesktopDriverSettings" Collapsed="true">
+    <Position X="15" Y="20" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAE=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Interfaces\IDesktopDriverSettings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Intertech.TestAutomation.Framework.InfrastructureLayer.Adapters.Drivers.Interfaces.IWebDriverSettings" Collapsed="true">
+    <Position X="15" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACAAAAAAAAIAAAAAACAAAIAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>InfrastructureLayer\Adapters\Drivers\Interfaces\IWebDriverSettings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Intertech.TestAutomation.Framework.DomainLayer.Utils.Enums.ExecutionEnvironment" Collapsed="true">
+    <Position X="30" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQEAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Utils\Enums\ExecutionEnvironment.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Intertech.TestAutomation.Framework.DomainLayer.Utils.Enums.KeyboardKey" Collapsed="true">
+    <Position X="27.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIDACAAAAAAAAAAAAAAAQkggAAAAAAAEAACABAAAA=</HashCode>
+      <FileName>DomainLayer\Utils\Enums\KeyboardKey.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Intertech.TestAutomation.Framework.DomainLayer.Utils.Enums.Platform" Collapsed="true">
+    <Position X="32.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACBAAAAAACQBQACAABAAAAAAAAQCIAAAAAAQ=</HashCode>
+      <FileName>DomainLayer\Utils\Enums\Platform.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Intertech.TestAutomation.Framework.DomainLayer.Utils.Enums.TestEnvironment" Collapsed="true">
+    <Position X="27.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainLayer\Utils\Enums\TestEnvironment.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

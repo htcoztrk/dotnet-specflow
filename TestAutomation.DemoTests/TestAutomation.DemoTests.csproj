@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestAutomation.Framework\TestAutomation.Framework.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="Gherkin" Version="23.0.1" />
+    <PackageReference Include="Google.Protobuf" Version="3.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="RestSharp" Version="108.0.3" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="122.0.6261.6900" />
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="122.0.2365.63" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.52" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\Frame\" />
+  </ItemGroup>
+</Project>
